@@ -1,0 +1,25 @@
+.Cointainer {
+    width: 100vw;
+    height: 30px;
+    background-color: lightgrey;
+    color: rgb(48, 135, 216);
+    
+
+    .Announcement {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+        .Logo{
+           
+            padding-top: 4px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+        .Text{
+            
+            padding-top: 8px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+    }
+}

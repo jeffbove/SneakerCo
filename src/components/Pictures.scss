@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-X: hidden;
+    
+    
+    .BioCointainer{
+    height: 90vh;
+    width: 100vw;
+    margin-top: 5vh;
+    display: flex;
+    background-color: white;
+    
+        
+        .BioImg1{
+            height: 70vh;
+            width: 20vw;
+            object-fit: contain;
+            flex: 1;
+        }
+        .BioImg2{
+            height: 70vh;
+            width: 20vw;
+            object-fit: contain;
+            flex: 1;
+        }
+        .BioImg3{
+            height: 70vh;
+            width: 20vw;
+            object-fit: contain;
+            flex: 1;
+        }
+    
+      
+       
+        
+        @media (max-width: 1175px) {
+            .BioImg3{
+               display: none;
+            }
+            .BioImg2{
+               display: none;
+            }
+        }
+    }
+    }

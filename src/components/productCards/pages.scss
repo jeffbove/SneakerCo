@@ -1,0 +1,77 @@
+.CardListWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-row-gap:10px ;
+    
+    width: 100vw;
+    .cardWrapper{
+       display: flex;
+       flex: 1;
+       margin: auto;
+       border: 1.5px solid black;
+       width: 20vw;
+       min-height: 30vh;
+       font-size: 13px;
+       padding: 3vh 2vw;
+       border-radius: 20px;
+       img{
+          width: 9vw;
+       };
+    };
+ };
+ 
+ 
+ 
+ 
+ @media (max-width: 1000px){
+    .CardListWrapper{
+       display: grid;
+       grid-template-columns: repeat(2, 3fr);
+       grid-row-gap:10px ;
+       width: 100vw;
+       margin-top: 10vh;
+       .cardWrapper{
+          display: flex;
+          flex: 1;
+          margin: auto;
+          border: 1.5px solid black;
+          width: 38vw;
+          min-height:57vh ;
+          font-size: 19px;
+          padding: 3vh 2vw;
+          border-radius: 20px;
+          img{
+             width: 30vw;
+          };
+       };
+    };
+ }
+ @media (max-width:480px) {
+    .CardListWrapper{
+       display: grid;
+       grid-template-columns: repeat(1, 4fr);
+       grid-row-gap:10px ;
+       width: 100vw;
+       margin-top: 10vh;
+       
+ 
+       .cardWrapper{
+          display: flex;
+          flex: 1;
+          margin: auto;
+          border: 1.5px solid black;
+          width: 95vw;
+          min-height: 30vh;
+          font-size: 18px;
+          padding: 0vh 0vw;
+          .m3{
+             padding: 30px;
+          }
+          img{
+             width: 40vw;
+             display: flex;
+             margin: auto
+          }
+       }
+    }
+ };

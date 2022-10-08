@@ -1,0 +1,30 @@
+.CatCointainer{
+    width: 100vw;
+    height: 7.5vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+  .CatCointainerWrapper{
+    font-weight: bolder;
+    display: flex;
+    height: 3.5vh;
+    margin: auto;
+    a{
+      color: black;
+      text-decoration: none;
+    }
+
+    .CatItm{
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        text-decoration: none;
+        
+        
+    }
+   .CatItm :hover{
+        
+        color: rgb(69, 146, 177);
+        
+    }
+  }
+}
